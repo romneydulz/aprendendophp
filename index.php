@@ -7,9 +7,13 @@
 
     <?php
         echo "Hello World!";
+        echo "<br/>";
         echo "teste2";
+        echo "<br/>";
         echo "teste3";
+        echo "<br/>";
         echo "teste4";
+        echo "<br/>";
         /*
         Comentario de varias linhas
         */
@@ -19,8 +23,10 @@
         
         $nome = "Romney Dulz";
         echo $nome;
+        echo "<br/>";
         $anoNascimento = "18/11/1990";
         echo $anoNascimento;
+        echo "<br/>";
     ?>
 
     </body>
