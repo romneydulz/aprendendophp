@@ -24,13 +24,19 @@
         $sobrenome = "Dulz";
         echo $nome." ".$sobrenome;
         echo "<br/>";
-        $anoNascimento = "18/11/1990";
-        echo $anoNascimento;
+        $nascimento = new DateTime();
+        echo $nascimento;
         echo "<br/>";
 
         //Exemplo de array
-        $frutas = array("abacaxi", "laranja", "manga");
+        $frutas = array("Abacaxi", "Laranja", "Manga");
         echo $frutas[1];
+
+        //var_dump() informa o tipo da variavel ou objeto
+
+        $arquivo = fopen(".gitignore","r");
+
+        var_dump($arquivo);
 
     ?>
 
