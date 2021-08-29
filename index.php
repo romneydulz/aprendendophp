@@ -6,6 +6,8 @@
     <body>
 
     <?php
+        session_name('teste');
+        session_start();
 
         /*
         Comentario de varias linhas
