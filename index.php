@@ -3,28 +3,26 @@
         <title>Aprendendo PHP</title>
 
     </head>
-<body>
+    <body>
 
-<?php
-    echo "Hello World!";
-    echo "teste2";
-    echo "teste3";
-    echo "teste4";
-    /*
-    Comentario de varias linhas
-    */
+    <?php
+        echo "Hello World!";
+        echo "teste2";
+        echo "teste3";
+        echo "teste4";
+        /*
+        Comentario de varias linhas
+        */
 
 
-    // testes com variaveis
-    
-    $nome = "Romney Dulz";
-    echo $nome;
-    $anoNascimento = "18/11/1990";
-    echo $anoNascimento;
-?>
+        // testes com variaveis
+        
+        $nome = "Romney Dulz";
+        echo $nome;
+        $anoNascimento = "18/11/1990";
+        echo $anoNascimento;
+    ?>
 
-</body>
+    </body>
 
 </html>
-
-
