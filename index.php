@@ -10,7 +10,6 @@
         /*
         Comentario de varias linhas
         */
-
         echo "Hello World!";
         echo "<br/>";
 
@@ -37,7 +36,7 @@
 
         //var_dump($arquivo);
 
-        
+
 
     ?>
 
