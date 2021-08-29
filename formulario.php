@@ -1,12 +1,12 @@
 <?php
 
-$nome = $_GET["a"];
-$ip = $_SERVER["REMOTE_ADDR"];
-$pagina = $_SERVER["SCRIPT_NAME"];
-echo $ip;
+    $nome = $_GET["a"];
+    $ip = $_SERVER["REMOTE_ADDR"];
+    $pagina = $_SERVER["SCRIPT_NAME"];
 
-echo $nome;
-echo "</br>";
-echo $pagina;
+    echo $ip;
+    echo $nome;
+    echo "</br>";
+    echo $pagina;
 
 ?>
