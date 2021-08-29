@@ -6,23 +6,21 @@
     <body>
 
     <?php
-        echo "Hello World!";
-        echo "<br/>";
-        echo "teste2";
-        echo "<br/>";
-        echo "teste3";
-        echo "<br/>";
-        echo "teste4";
-        echo "<br/>";
+
         /*
         Comentario de varias linhas
         */
 
-
+        echo "Hello World!";
+        echo "<br/>";
+    
         // testes com variaveis
+        //unset($nome) apaga variavel
+        //isset($nome) retorna true or false caso a variavel esteja definida
         
-        $nome = "Romney Dulz";
-        echo $nome;
+        $nome = "Romney";
+        #sobrenome = "Dulz";
+        echo $nome."".$sobrenome;
         echo "<br/>";
         $anoNascimento = "18/11/1990";
         echo $anoNascimento;
