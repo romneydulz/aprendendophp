@@ -35,7 +35,9 @@
 
         $arquivo = fopen(".gitignore","r");
 
-        var_dump($arquivo);
+        //var_dump($arquivo);
+
+        
 
     ?>
 
