@@ -25,7 +25,6 @@
         echo $nome." ".$sobrenome;
         echo "<br/>";
         $nascimento = new DateTime();
-        echo $nascimento;
         echo "<br/>";
 
         //Exemplo de array
