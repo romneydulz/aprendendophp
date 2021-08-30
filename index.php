@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Aprendendo PHP</title>
@@ -6,8 +7,6 @@
     <body>
 
     <?php
-        session_name('teste');
-        session_start();
 
         /*
         Comentario de varias linhas
