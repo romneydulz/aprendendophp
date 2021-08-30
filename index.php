@@ -9,7 +9,8 @@
 </head>
 
 <body>
-
+  <img src="img//background.png" alt="background abstrato">
+  </br>
   <?php
 
   /*
