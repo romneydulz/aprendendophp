@@ -15,10 +15,9 @@
     $ip = $_SERVER["REMOTE_ADDR"];
     $pagina = $_SERVER["SCRIPT_NAME"];
 
-    echo $ip;
-    echo $nome;
-    echo "</br>";
-    echo $pagina;
+    echo ("<b>IPv4:</b> $ip</br>");
+    echo ("$nome</br>");
+    echo ("<b>Página:</b> $pagina");
 
     ?>
 </body>
