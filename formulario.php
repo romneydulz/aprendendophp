@@ -23,8 +23,8 @@
     $_SESSION["nome"] = "Romney";
     echo $_SESSION["nome"];
 
-    session_unset($_SESSION['nome']);
-    session_destroy($_SESSION['nome']);
+    //session_unset();
+    //session_destroy();
     echo $_SESSION["nome"];
     if (isset($_GET)) {
         foreach ($_GET as $key => $value) {

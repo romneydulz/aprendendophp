@@ -12,18 +12,14 @@
   <img src="img//background.png" alt="background abstrato">
   </br>
   <?php
+  require_once("config.php");
 
-  /*
-        Comentario de varias linhas
-        */
   echo "Hello World!";
   echo "<br/>";
 
-  /////////////////////////////////////////////////////////////////////////////
   // testes com variaveis
   //unset($nome) apaga variavel
   //isset($nome) retorna true or false caso a variavel esteja definida
-  /////////////////////////////////////////////////////////////////////////////
 
   $nome = "Romney";
   $sobrenome = "Dulz";
