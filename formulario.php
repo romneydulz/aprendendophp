@@ -19,6 +19,12 @@
 
     <?php
     require_once("config.php");
+
+    $_SESSION["nome"] = "Romney";
+    echo $_SESSION["nome"];
+
+    session_unset($_SESSION['nome']);
+    session_destroy($_SESSION['nome']);
     echo $_SESSION["nome"];
     if (isset($_GET)) {
         foreach ($_GET as $key => $value) {
@@ -27,6 +33,7 @@
             echo "<strong>valor:</strong> $value";
         }
     }
+
     ?>
 </body>
 
