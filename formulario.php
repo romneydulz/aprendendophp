@@ -21,7 +21,11 @@
     require_once("config.php");
 
     $_SESSION["nome"] = "Romney";
-    echo $_SESSION["nome"];
+    echo "</hr>";
+    echo $_SESSION["nome"] . "</br>";
+    echo "PHPSESSID: " . session_id();
+    session_regenerate_id();
+    echo "</br>PHPSESSID: " . session_id();
     //session_unset();
     //session_destroy();
 
