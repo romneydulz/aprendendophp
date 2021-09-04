@@ -18,6 +18,8 @@
     </form>
 
     <?php
+    require_once("config.php");
+    echo $_SESSION["nome"];
     if (isset($_GET)) {
         foreach ($_GET as $key => $value) {
             echo "</br><hr>";
