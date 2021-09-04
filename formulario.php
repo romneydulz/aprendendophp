@@ -9,16 +9,22 @@
 </head>
 
 <body>
+    <form>
+        <h1>Formulário</h1>
+        Nome Completo: <input type="text" name="nome">
+        </br>
+        Data de Nascimento: <input type="date" name="nascimento">
+        <input type="submit" value="OK">
+    </form>
+
     <?php
-
-    $nome = $_GET["a"];
-    $ip = $_SERVER["REMOTE_ADDR"];
-    $pagina = $_SERVER["SCRIPT_NAME"];
-
-    echo ("<b>IPv4:</b> $ip</br>");
-    echo ("$nome</br>");
-    echo ("<b>Página:</b> $pagina");
-
+    if (isset($_GET)) {
+        foreach ($_GET as $key => $value) {
+            echo "</br><hr>";
+            echo "<strong>Nome do campo:</strong> $key</br>";
+            echo "<strong>valor:</strong> $value";
+        }
+    }
     ?>
 </body>
 
